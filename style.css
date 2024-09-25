@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --background: #060914;
+    --form: #FFFFFF;
+    --button-blk: #000000;
+    --login:#008080;
+    --link:#747474;
+}
+body{
+    background-color: var(--login);
+    font-family: "Roboto", system-ui;
+}
+.container{
+    background-color: var(--background);
+    display: flex;
+}
+.container img{
+    width: 45%;
+    height: 590px;
+}
+.central-form{
+    margin: auto;
+    width: 400px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--form);
+    border-radius: 10px;
+}
+.central-form h2{
+    font-size: 30px;
+    color: var(--button-blk);
+    font-weight: 900;
+}
+.central-form p{
+    font-size: 14px;
+    color: var(--link);
+}
+.central-form span{
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--login);
+    cursor: pointer;
+}
+.input-text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.input-text input{
+    border-radius: 15px;
+    padding-left: 10px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid var(--link);
+    margin-bottom: 10px;
+}
+.input-text p{
+    text-align: right;
+    color: var(--link);
+    font-size: 13px;
+    cursor: pointer;
+}
+.input-text .btn{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--login);
+    color: var(--form);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+    margin-bottom: 30px;
+}
+.input-text .btn:hover{
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 15px;
+}
+.login .btn-2{
+    background-color: var(--button-blk);
+    color: var(--form);
+}
+.login .btn-3{
+    background-color: var(--form);
+    color: var(--button-blk);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+}
+button{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid var(--link);
+    font-size: 11px;
+    cursor: pointer;
+}
+.fa-brands{
+    font-size: 15px;
+    margin-right: 5px;
+}
